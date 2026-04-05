@@ -1,6 +1,7 @@
 "use client"
 import React, { useEffect, useRef } from 'react'
 import Typed from 'typed.js';
+import About from '../about/About';
 
 
 const Typing = () => {
@@ -26,7 +27,7 @@ const Typing = () => {
 
   return (
     <>
-      <p ref={typedRef} className="text-gray-800 mt-4 text-lg dark:text-white"></p>
+      <p ref={typedRef} className="text-gray-800 mt-4 text-lg min-h-[60] md:min-h-fit dark:text-white"></p>
     </>
   )
 }

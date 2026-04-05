@@ -25,13 +25,13 @@ const Navbar = () => {
   }, [theme]);
 
   return (
-    <nav className="bg-gradient-to-r from-blue-100 to-blue-600 fixed top-0 w-full z-10 shadow-md dark:bg-gradient-to-r dark:from-slate-400 dark:via-slate-700 dark:to-slate-700">
+    <nav className="bg-gradient-to-r from-blue-200 to-blue-400 fixed top-0 w-full z-10 shadow-md dark:bg-gradient-to-r dark:from-slate-400 dark:via-slate-700 dark:to-slate-700">
       
       <div className="w-full md:w-[80%] mx-auto px-4 md:px-24 flex justify-between items-center py-4">
         
         {/* Logo */}
         <div className="text-black dark:text-slate-200 font-bold text-lg border-3 border-transparent hover:border-black dark:hover:border-slate-200 transition duration-300 rounded-full p-1">
-          <a href="#home">Portfolio</a>
+          <a href="#home">Kerolos Adly</a>
         </div>
 
         {/* Toggle Theme */}
@@ -44,10 +44,10 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-6 text-black font-medium dark:text-slate-200">
-          <li><a href="#about" className="border-3 border-transparent hover:border-black dark:hover:border-slate-200 transition duration-300 rounded-full p-1">About</a></li>
-          <li><a href="#skills" className="border-3 border-transparent hover:border-black dark:hover:border-slate-200 transition duration-300 rounded-full p-1">Skills</a></li>
+          <li><a href="#home" className="border-3 border-transparent hover:border-black dark:hover:border-slate-200 transition duration-300 rounded-full p-1">Home</a></li>
+
+          <li><a href="#skills" className="border-3 border-transparent hover:border-black dark:hover:border-slate-200 transition duration-300 rounded-full p-1">About</a></li>
           <li><a href="#projects" className="border-3 border-transparent hover:border-black dark:hover:border-slate-200 transition duration-300 rounded-full p-1">Projects</a></li>
-          <li><a href="#experience" className="border-3 border-transparent hover:border-black dark:hover:border-slate-200 transition duration-300 rounded-full p-1">Experience</a></li>
           <li><a href="#contact" className="border-3 border-transparent hover:border-black dark:hover:border-slate-200 transition duration-300 rounded-full p-1">Contact</a></li>
         </ul>
 
@@ -72,11 +72,11 @@ const Navbar = () => {
           
           <li>
             <a
-              href="#about"
+              href="#home"
               onClick={() => setIsOpen(false)}
               className="border-3 border-transparent dark:text-slate-200 hover:border-black dark:hover:border-slate-200 transition duration-300 rounded-full p-1"
             >
-              About
+              Home
             </a>
           </li>
 
@@ -86,7 +86,7 @@ const Navbar = () => {
               onClick={() => setIsOpen(false)}
               className="border-3 border-transparent dark:text-slate-200 hover:border-black dark:hover:border-slate-200 transition duration-300 rounded-full p-1"
             >
-              Skills
+              About
             </a>
           </li>
 
@@ -97,16 +97,6 @@ const Navbar = () => {
               className="border-3 border-transparent dark:text-slate-200 hover:border-black dark:hover:border-slate-200 transition duration-300 rounded-full p-1"
             >
               Projects
-            </a>
-          </li>
-
-          <li>
-            <a
-              href="#experience"
-              onClick={() => setIsOpen(false)}
-              className="border-3 border-transparent dark:text-slate-200 hover:border-black dark:hover:border-slate-200 transition duration-300 rounded-full p-1"
-            >
-              Experience
             </a>
           </li>
 

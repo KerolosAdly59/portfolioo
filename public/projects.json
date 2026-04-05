@@ -1,17 +1,18 @@
 
 [
   {
-    "id": 1,
-    "title": "Weather App",
-    "description": "A modern weather application that shows real-time weather data, temperature, humidity, and forecasts using API integration.",
-     "details": [
-      "Integrated weather API to fetch real-time data",
-      "Displayed temperature, humidity, and conditions",
-      "Built responsive UI using modern design principles"
+    "id": 5,
+    "title": "E-commerce Website",
+    "description": "An online shopping platform with product listing, cart functionality, and a modern UI built using React and Tailwind.",
+    "details": [
+      "Developed product listing and category filtering",
+      "Implemented shopping cart functionality",
+      "Built responsive UI using Tailwind CSS",
+      "Handled navigation using React Router"
     ],
-    "image": "https://raw.githubusercontent.com/KerolosAdly59/weather/701f00f9a5c4d9c4c29f2a0fcf1e0e108f6866b7/Weather.png",
-    "urlSite": "https://weather-phi-smoky-45.vercel.app",
-    "urlCode": "https://github.com/KerolosAdly59/weather",
+    "image": "https://raw.githubusercontent.com/KerolosAdly59/E-commerce/5dac82a8415c76949e942486aba7dde0440c0019/E-commerce.png",
+    "urlSite": "https://e-commerce-amber-delta-66.vercel.app",
+    "urlCode": "https://github.com/KerolosAdly59/e-commerce",
     "featured": true
   },
   {
@@ -29,35 +30,6 @@
     "featured": true
   },
   {
-    "id": 3,
-    "title": "Calculator App",
-    "description": "A responsive calculator application that performs basic arithmetic operations with a clean and user-friendly interface.",
-    "details": [
-      "Performed arithmetic operations (add, subtract, multiply, divide)",
-      "Handled user input and edge cases",
-      "Built responsive UI with clean layout"
-    ],
-    "image": "https://raw.githubusercontent.com/KerolosAdly59/calculator/e1373d73fac9e364c489ab988ed40b58e5702da3/Calculator.png",
-    "urlSite": "https://calculator-nine-liard-40.vercel.app",
-    "urlCode": "https://github.com/KerolosAdly59/Calculator",
-    "featured": true
-  },
-  {
-    "id": 5,
-    "title": "E-commerce Website",
-    "description": "An online shopping platform with product listing, cart functionality, and a modern UI built using React and Tailwind.",
-    "details": [
-      "Developed product listing and category filtering",
-      "Implemented shopping cart functionality",
-      "Built responsive UI using Tailwind CSS",
-      "Handled navigation using React Router"
-    ],
-    "image": "https://raw.githubusercontent.com/KerolosAdly59/E-commerce/5dac82a8415c76949e942486aba7dde0440c0019/E-commerce.png",
-    "urlSite": "https://e-commerce-amber-delta-66.vercel.app",
-    "urlCode": "https://github.com/KerolosAdly59/e-commerce",
-    "featured": true
-  },
-  {
     "id": 4,
     "title": "Social Media App",
     "description": "A full-stack social media application where users can create posts, interact, and manage content with authentication and real-time updates.",
@@ -71,5 +43,33 @@
     "urlSite": "https://social-app-pi-steel.vercel.app",
     "urlCode": "https://github.com/KerolosAdly59/socialApp",
     "featured": true
+  },
+  {
+    "id": 1,
+    "title": "Weather App",
+    "description": "A modern weather application that shows real-time weather data, temperature, humidity, and forecasts using API integration.",
+    "details": [
+      "Integrated weather API to fetch real-time data",
+      "Displayed temperature, humidity, and conditions",
+      "Built responsive UI using modern design principles"
+    ],
+    "image": "https://raw.githubusercontent.com/KerolosAdly59/weather/701f00f9a5c4d9c4c29f2a0fcf1e0e108f6866b7/Weather.png",
+    "urlSite": "https://weather-phi-smoky-45.vercel.app",
+    "urlCode": "https://github.com/KerolosAdly59/weather",
+    "featured": false
+  },
+  {
+    "id": 3,
+    "title": "Calculator App",
+    "description": "A responsive calculator application that performs basic arithmetic operations with a clean and user-friendly interface.",
+    "details": [
+      "Performed arithmetic operations (add, subtract, multiply, divide)",
+      "Handled user input and edge cases",
+      "Built responsive UI with clean layout"
+    ],
+    "image": "https://raw.githubusercontent.com/KerolosAdly59/calculator/e1373d73fac9e364c489ab988ed40b58e5702da3/Calculator.png",
+    "urlSite": "https://calculator-nine-liard-40.vercel.app",
+    "urlCode": "https://github.com/KerolosAdly59/Calculator",
+    "featured": false
   }
 ]

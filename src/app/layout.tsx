@@ -4,6 +4,7 @@ import "./globals.css";
 import "@fortawesome/fontawesome-free/css/all.min.css"
 import Navbar from "./_components/navbar/Navbar";
 import { Space_Grotesk } from "next/font/google";
+import { Toaster } from "sonner";
 
 const space = Space_Grotesk({
   subsets: ["latin"],
@@ -35,6 +36,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${space.className} ${geistMono.variable} antialiased`}
       >
         <Navbar />
+        <Toaster />
         {children}
       </body>
     </html>
