@@ -64,7 +64,7 @@ export const Contact = () => {
 
   return (
     <div className="py-8 px-3 md:px-0">
-      <h1 className="text-center font-bold text-3xl py-8">Contact Me</h1>
+      <h1 className="text-center font-bold text-3xl py-8 ">Contact Me</h1>
 
       <FormProvider {...methods}>
         <form ref={formRef} onSubmit={handleSubmit(onSubmit)} className="space-y-4 w-full max-w-md mx-auto">
@@ -76,7 +76,7 @@ export const Contact = () => {
               <FormItem>
                 <FormLabel>Name</FormLabel>
                 <FormControl>
-                  <Input {...field} placeholder="Your Name" />
+                  <Input className="bg-gray-300" {...field} placeholder="Your Name" />
                 </FormControl>
                 <FormMessage>{errors.name?.message}</FormMessage>
               </FormItem>
@@ -98,7 +98,7 @@ export const Contact = () => {
               <FormItem>
                 <FormLabel>Email</FormLabel>
                 <FormControl>
-                  <Input {...field} type="email" placeholder="Your Account" />
+                  <Input className="bg-gray-300" {...field} type="email" placeholder="Your Account" />
                 </FormControl>
                 <FormMessage>{errors.email?.message}</FormMessage>
               </FormItem>
@@ -113,7 +113,7 @@ export const Contact = () => {
               <FormItem>
                 <FormLabel>Message</FormLabel>
                 <FormControl>
-                  <Textarea {...field} placeholder="Write Your Message" rows={4} />
+                  <Textarea className="bg-gray-300" {...field} placeholder="Write Your Message" rows={4} />
                 </FormControl>
                 <FormMessage>{errors.message?.message}</FormMessage>
               </FormItem>

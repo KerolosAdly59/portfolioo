@@ -19,8 +19,22 @@ import { Autoplay, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-
 const Projects = () => {
+  // {
+  //   "id": 4,
+  //   "title": "Social Media App",
+  //   "description": "A full-stack social media application where users can create posts, interact, and manage content with authentication and real-time updates.",
+  //   "details": [
+  //     "Implemented user authentication system",
+  //     "Users can create, edit, and delete posts",
+  //     "Managed state and protected routes",
+  //     "Built interactive and responsive UI"
+  //   ],
+  //   "image": "https://raw.githubusercontent.com/KerolosAdly59/socialApp/e4399d82fd0487bdd057cd9257e818e69b87d82c/SocialApp.png",
+  //   "urlSite": "https://social-app-pi-steel.vercel.app",
+  //   "urlCode": "https://github.com/KerolosAdly59/socialApp",
+  //   "featured": true
+  // },
   const [projects, setProjects] = useState<Data>([]);
 
   useEffect(() => {
@@ -30,6 +44,7 @@ const Projects = () => {
 
 
   }, []);
+  
 
   return (
     <div className="py-8 px-4">
@@ -151,3 +166,4 @@ const Projects = () => {
 };
 
 export default Projects;
+

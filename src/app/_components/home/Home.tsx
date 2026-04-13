@@ -4,7 +4,7 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 import Typing from '../typing/Typing';
 import Image from 'next/image';
-import imageCover from "../../../../Gemini_Generated_Image_rumkhfrumkhfrumk.png";
+import imageCover from "../../../../IMG_20260410_145607.jpg";
 import { motion } from "framer-motion";
 
 const Home = () => {
@@ -29,7 +29,7 @@ function shareWhatsApp() {
         viewport={{ once: true }}
       >
         <motion.h1 
-          className='font-bold text-3xl' 
+          className='font-bold text-3xl ' 
           initial={{ opacity: 0, x: -50 }} 
           whileInView={{ opacity: 1, x: 0 }} 
           transition={{ delay: 0.1, duration: 0.6 }}
@@ -37,7 +37,7 @@ function shareWhatsApp() {
           Hi, I’m Kerolos
         </motion.h1>
         <motion.h2 
-          className='font-semibold text-2xl' 
+          className='font-semibold text-2xl ' 
           initial={{ opacity: 0, x: -50 }} 
           whileInView={{ opacity: 1, x: 0 }} 
           transition={{ delay: 0.2, duration: 0.6 }}
@@ -60,7 +60,7 @@ function shareWhatsApp() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.4, duration: 0.6 }}
         >
-          <a href='https://www.linkedin.com/in/kerolos-adly-9b1b4a1b2/' target='_blank' rel="noopener noreferrer" className='text-blue-500 text-4xl'><i className='fa-brands fa-linkedin'></i></a>
+          <a href='https://www.linkedin.com/in/kerolos-adly-261b22344?utm_source=share_via&utm_content=profile&utm_medium=member_android' target='_blank' rel="noopener noreferrer" className='text-blue-500 text-4xl'><i className='fa-brands fa-linkedin'></i></a>
           <a href='https://www.github.com/KerolosAdly59' target='_blank' rel="noopener noreferrer" className='text-gray-700 text-4xl'><i className='fa-brands fa-github'></i></a>
           <a href='https://mail.google.com/mail/?view=cm&fs=1&to=kerolosadly59@gmail.com' target='blank' className='text-slate-800 text-4xl'><i className='fa-solid fa-envelope'> </i></a>
               <div className='text-green-600 text-4xl cursor-pointer' onClick={shareWhatsApp}><i className='fa-brands fa-whatsapp'></i></div>
@@ -106,7 +106,7 @@ function shareWhatsApp() {
           alt="Profile" 
           width={200} 
           height={200} 
-          className='rounded-full w-full object-cover shadow-2xl border-4 border-white'
+          className='rounded-full w-80 object-cover shadow-2xl border-4 border-white'
         />
       </motion.div>
 

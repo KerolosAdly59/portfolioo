@@ -29,13 +29,13 @@ const Page = () => {
   ];
 
   return (
-    <div className="bg-linear-to-r from-blue-400 to-blue-200 h-full dark:bg-gradient-to-r dark:from-slate-700 dark:via-slate-700 dark:to-slate-400 dark:text-slate-100">
+    <div className="font-serif bg-linear-to-r from-slate-200 to-white h-full dark:bg-gradient-to-r dark:from-slate-700 dark:via-slate-700 dark:to-slate-400 dark:text-slate-100">
       <div className="w-[95%] md:w-[85%] mx-auto pt-20">
         {sections.map((section, index) => (
           <motion.section
             key={section.id}
             id={section.id}
-            className="shadow-[0_10px_30px_rgba(194,65,12,0.35)] rounded-[20px] bg-linear-to-r from-blue-200 to-blue-400 mt-4 dark:bg-gradient-to-r dark:from-slate-400 dark:via-slate-700 dark:to-slate-700 dark:shadow-[0_8px_30px_rgba(0,0,0,0.25)]"
+            className="shadow-[0_10px_30px_rgba(100,100,100,0.35)] rounded-[20px] bg-linear-to-r from-slate-100 to-slate-300 mt-4 dark:bg-gradient-to-r dark:from-slate-400 dark:via-slate-700 dark:to-slate-700 dark:shadow-[0_8px_30px_rgba(0,0,0,0.25)]"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.2 }}

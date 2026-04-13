@@ -25,13 +25,13 @@ const Navbar = () => {
   }, [theme]);
 
   return (
-    <nav className="bg-gradient-to-r from-blue-200 to-blue-400 fixed top-0 w-full z-10 shadow-md dark:bg-gradient-to-r dark:from-slate-400 dark:via-slate-700 dark:to-slate-700">
+    <nav className="bg-gradient-to-r from-slate-100 to-slate-300 fixed top-0 w-full z-10 shadow-md dark:bg-gradient-to-r dark:from-slate-400 dark:via-slate-700 dark:to-slate-700">
       
       <div className="w-full md:w-[80%] mx-auto px-4 md:px-24 flex justify-between items-center py-4">
         
         {/* Logo */}
         <div className="text-black dark:text-slate-200 font-bold text-lg border-3 border-transparent hover:border-black dark:hover:border-slate-200 transition duration-300 rounded-full p-1">
-          <a href="#home">Kerolos Adly</a>
+          <a href="#home" className="text-2xl font-bold font-serif">Kerolos Adly</a>
         </div>
 
         {/* Toggle Theme */}
