@@ -13,7 +13,6 @@ const Navbar = () => {
     }
   }, []);
 
-  // ✅ تطبيق الثيم + التخزين
   useEffect(() => {
     if (theme === "dark") {
       document.documentElement.classList.add("dark");

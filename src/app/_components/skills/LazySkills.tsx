@@ -3,7 +3,6 @@
 import dynamic from "next/dynamic";
 import useInView from "../UseInView/UseInView";
 
-// هنا بنعمل dynamic import للكومبوننت الأصلي
 const SkillsContent = dynamic(() => import("./Skills"), { ssr: false });
 
 export default function LazySkills() {

@@ -9,8 +9,7 @@ import { motion } from "framer-motion";
 
 const Home = () => {
 function shareWhatsApp() {
-  const phoneNumber = "201274739967"; // حط رقمك بصيغة دولية (بدون +)
-  // const message = "عايز اكلمك بخصوص الموقع 👋";
+  const phoneNumber = "201274739967"; 
   
   const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent("")}`;
   

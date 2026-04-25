@@ -30,7 +30,6 @@ I specialize in React and Next.js, focusing on creating responsive and user-frie
 I enjoy turning ideas into real products and continuously learning new technologies to improve my skills.
 </p>
       </div>
-      {/* <h1 className="text-center font-bold text-3xl py-8">Skills</h1> */}
       <div className="flex gap-8 py-12 flex-wrap justify-center items-center">
         <i className="fas fa-code fa-3x"></i>
 

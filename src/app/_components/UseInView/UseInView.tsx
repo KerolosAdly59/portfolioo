@@ -12,10 +12,10 @@ export default function useInView() {
       ([entry]) => {
         if (entry.isIntersecting) {
           setInView(true);
-          observer.disconnect(); // يفصل المراقبة بعد ما يظهر
+          observer.disconnect(); 
         }
       },
-      { threshold: 0.2 } // نسبة ظهور العنصر عشان يبدأ التحميل
+      { threshold: 0.2 } 
     );
 
     observer.observe(ref.current);

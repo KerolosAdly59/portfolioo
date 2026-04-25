@@ -18,35 +18,7 @@ const About = () => {
     { name: "GitHub", icon: <i className="fab fa-github fa-4x text-gray-800 animate-bounce"></i> },
   ];
   return (
-//     <div >
-//             <h1 className="text-center font-bold text-3xl py-8">About</h1>
 
-//       <p className='font-bold p-10 text-[20px]'>Hi, I'm Kerolos Adly, a Frontend Developer passionate about building modern and interactive web applications.
-// I specialize in React and Next.js, focusing on creating responsive and user-friendly interfaces.
-// I enjoy turning ideas into real products and continuously learning new technologies to improve my skills.
-// </p>
-// <div className=" pb-12">
-//       <div className="flex gap-8 py-12 flex-wrap justify-center items-center">
-//         <i className="fas fa-code fa-3x"></i>
-
-//         {skills.map((skill, index) => (
-//           <motion.div
-//             key={skill.name}
-//             className="text-center font-bold flex flex-col items-center gap-2"
-//             initial={{ opacity: 0, y: 50 }}
-//             whileInView={{ opacity: 1, y: 0 }}
-//             viewport={{ once: true, amount: 0.2 }}
-//             transition={{ delay: index * 0.15, duration: 0.5 }}
-//           >
-//             {skill.icon}
-//             <p>{skill.name}</p>
-//           </motion.div>
-//         ))}
-
-//         <i className="fas fa-code fa-3x"></i>
-//       </div>
-//     </div>
-//     </div>
 <div>
 
 </div>

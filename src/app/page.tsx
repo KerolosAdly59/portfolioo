@@ -2,8 +2,6 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-
-// import About from "./_components/about/About";
 import LazySkills from "./_components/skills/LazySkills";
 import Projects from "./_components/projects/Projects";
 import { Contact } from "./_components/contact/Contact";
