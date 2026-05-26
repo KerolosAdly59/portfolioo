@@ -1,4 +1,3 @@
-
 [
   {
     "id": 5,
@@ -16,6 +15,25 @@
     "featured": true
   },
   {
+    "id": 4,
+    "title": "Crypto Dashboard Website",
+    "description": "A modern cryptocurrency dashboard that provides real-time market data, trending coins, favorite tracking, and interactive charts using React, Next.js, and Tailwind CSS.",
+    "details": [
+      "Developed a responsive crypto dashboard with modern UI design",
+      "Integrated CoinGecko API for real-time cryptocurrency market data",
+      "Built interactive price charts and market analytics visualization",
+      "Implemented favorite coins functionality with dynamic state management",
+      "Created trending coins section with live market updates",
+      "Added detailed coin pages with historical chart data",
+      "Handled routing and dynamic pages using Next.js App Router",
+      "Designed fully responsive layouts using Tailwind CSS"
+    ],
+    "image": "https://raw.githubusercontent.com/KerolosAdly59/Crypto/832b8a5e938f550f690a0322d5cbf7feb5b86901/Crypto.png",
+    "urlSite": "https://crypto-three-silk.vercel.app",
+    "urlCode": "https://github.com/KerolosAdly59/Crypto",
+    "featured": true
+  },
+  {
     "id": 2,
     "title": "To-Do List App",
     "description": "A simple and interactive task management app to organize daily activities with add, delete, and mark-as-complete features.",
@@ -29,7 +47,6 @@
     "urlCode": "https://github.com/KerolosAdly59/To-Do-List",
     "featured": true
   },
-  
   {
     "id": 1,
     "title": "Weather App",
